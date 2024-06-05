@@ -89,3 +89,19 @@ ul{
 h1{
   font-size: 100px;
 }
+table {
+  width:90%;
+  font-size: 15px;
+  color:white;
+  border: 1px solid grey;
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  color: white;
+}
