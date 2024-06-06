@@ -81,7 +81,6 @@ header nav a.active::after {
 }
 p{
   font-size: 20px;
-  text-transform: lowercase;
 }
 ul{
   font-size: 20px;
@@ -111,7 +110,7 @@ h3{
 .h1{
   margin: 0;
   text-shadow: white;
-  font-size: 75px;
+  font-size: 120px;
   color: rgba(225,225,225, .01);
   background-image: url('flag.png');
   background-repeat: repeat;
@@ -135,4 +134,33 @@ h3{
     75% {
       background-position: right top;
     }   
+}
+#home, #services, #contact{
+  color:white;
+  background-color: #5fb68e;
+}
+#about, #portfolio, footer{
+  color:white;
+  background-color: #54DF9F;
+}
+h1{
+  padding: 3%;
+}
+.a{
+  font-size: 20px;
+}
+table{
+  border-color: white;
+  margin: 3%;
+}
+body{
+  color: white;
+}
+.small{
+  text-align: center;
+  font-size: 80px;
+}
+img{
+  padding: 2%;
+  border-radius: 20%;
 }
